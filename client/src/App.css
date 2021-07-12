@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #151515;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.App > h1{
+  color: #E50917;
+}
+
+label {
+  margin: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#submitBtn {
+  margin : 30px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 15px;
+}
+
+.form input {
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.form input[type="text"], textarea {
+  background-color: inherit;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+.form input[type="text"], textarea:focus{
+  outline: none;
+}
+
+
+.card {
+  width: 500px;
+  height: 170px;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+#updateInput {
+  font-size: 15px;
+  width: 200px;
+  height: 20px;
+  margin-bottom: 10px;
+
+}
